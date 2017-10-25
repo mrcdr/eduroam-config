@@ -1,4 +1,5 @@
 Netctl config for eduroam
+====
 
 # Use a hash
 You can use a hash instead of a raw password for the password section.
