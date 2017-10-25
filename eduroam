@@ -1,0 +1,15 @@
+Connection='wireless'
+Interface=''                  # EDIT
+Security='wpa-configsection'
+Description="eduroam"
+IP='dhcp'
+TimeoutWPA=30
+WPAConfigSection=(
+    'ssid="eduroam"'
+    'key_mgmt=WPA-EAP'
+    'eap=PEAP'
+    'proto=WPA2'
+    'phase2="auth=MSCHAPV2"'
+    'identity=""'             # EDIT
+    'password='               # EDIT
+)
